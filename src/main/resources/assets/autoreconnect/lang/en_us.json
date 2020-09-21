@@ -1,0 +1,5 @@
+{
+  "autoReconnect.waitingTime":"Reconnecting in %d seconds.",
+  "text.autoconfig.autoreconnect.title": "AutoReconnect Settings",
+  "text.autoconfig.autoreconnect.option.reconnect_timer": "Time before reconnect (Seconds):"
+}

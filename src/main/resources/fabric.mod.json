@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "autoreconnect",
+  "version": "${version}",
+  "name": "AutoReConnect",
+  "description": "Automatically reconnects you to the server.",
+  "authors": [
+    "Kowagatte",
+    "Takaranoao"
+  ],
+  "contact": {
+    "homepage": "https://damocles.ca/",
+    "sources": "NA"
+  },
+  "license": "MIT",
+  "icon": "assets/autoreconnect/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "modmenu": [
+      "ca.damocles.mods.autoreconnect.AutoReconnectorModMenuIntegration"
+    ],
+    "client": [
+      "ca.damocles.mods.autoreconnect.AutoReconnectMod"
+    ]
+  },
+  "mixins": ["autoreconnect.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": "1.16.x",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  },
+  "custom": {
+    "modmenu:clientsideOnly": true
+  }
+}

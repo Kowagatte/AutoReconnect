@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "ca.damocles.mods.autoreconnect.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "MixinDisconnectedScreen"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
